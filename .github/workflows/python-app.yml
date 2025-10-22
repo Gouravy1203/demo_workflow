@@ -46,7 +46,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: foo
-        uses: OWNER/hello-world-composite-action@SHA
+        uses: v0idgy/demo_workflow@SHA
         with:
           who-to-greet: 'Gourav Yadav'
       - run: echo random-number "$RANDOM_NUMBER"
