@@ -41,5 +41,5 @@ jobs:
     - name: Formating with Ruff
       run: 
         pip install ruff
-        ruff check . --fix  
+        ruff check .  
         ruff format .
